@@ -47,6 +47,9 @@
 .section-description{
     margin-bottom: 40px;
 }
+.text-center{
+    text-align: center;
+}
 /* Header Styles */
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
@@ -103,6 +106,8 @@ nav li a{
 main{
     max-width: 1140px;
     margin: 0 auto;
+}
+main section{
     margin-top: 130px;
     margin-bottom: 130px;
 }
@@ -118,4 +123,17 @@ main{
 }
 .item-description{
     font-weight: 600;
+}
+/* Skills Styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-title{
+    font-weight: bold;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
